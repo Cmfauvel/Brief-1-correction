@@ -1,0 +1,102 @@
+@media(max-width: 550px)
+{
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+    }
+
+    #reussite, 
+    #ensemble,
+    #covid,
+    #fun {
+        width: 85%;
+    }
+/* Entrez ici vos propriétés CSS lorsque l'utilisateur est sur smartphone */
+}
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    
+/* Entrez ici vos propriétés CSS lorsque l'utilisateur est sur tablette */	
+}
+
+
+body {
+    background-color: #f2f5f7;
+    position: relative;
+    
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#first {
+    padding-top: 100px;
+}
+
+
+li {
+    list-style-image: url(../images/bullet.png);
+}
+
+span {
+    padding-left: 5px;
+    font-size: 14px;
+
+}
+
+#reussite, 
+#ensemble,
+#covid,
+#fun {
+ border-style: solid;
+ background-color: white;
+ border-radius: 10px;
+ border-color: white;
+ box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+ 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-charte {
+    right: 0;
+    position: absolute;
+    
+}
+
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.hide-box {
+    transition: .25s ease;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .hide-box.-visible {
+    max-height: 99em;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
